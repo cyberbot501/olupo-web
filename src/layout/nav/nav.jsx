@@ -42,11 +42,11 @@ export default function Nav() {
       </div>
 
       <ul className='hidden md:flex flex-row gap-10'>
-        <li><NavLink className={`text-[18px] font-Inter font-medium ${scroll ? 'text-white' : 'text-black'}`}>Home</NavLink></li>
+        <li><NavLink to='./' className={`text-[18px] font-Inter font-medium ${scroll ? 'text-white' : 'text-black'}`}>Home</NavLink></li>
         <li><NavLink className={`text-[18px] font-Inter font-medium ${scroll ? 'text-white' : 'text-black'}`}>About Us</NavLink></li>
         <li><NavLink className={`text-[18px] font-Inter font-medium ${scroll ? 'text-white' : 'text-black'}`}>Farming Calendar</NavLink></li>
         <li><NavLink className={`text-[18px] font-Inter font-medium ${scroll ? 'text-white' : 'text-black'}`}>Services</NavLink></li>
-        <li><NavLink className={`text-[18px] font-Inter font-medium ${scroll ? 'text-white' : 'text-black'}`}>Contact Us</NavLink></li>
+        <li><NavLink to='./contact' className={`text-[18px] font-Inter font-medium ${scroll ? 'text-white' : 'text-black'}`}>Contact Us</NavLink></li>
       </ul>
 
       {menuOpen && (
