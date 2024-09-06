@@ -4,9 +4,9 @@ import juice from '../../assest/photo-1583577612013-4fecf7bf8f13.avif'
 
 export default function about() {
   return (
-    <div>
+    <div className='mt-[-70px] md:mt-[0px]'>
         <div className='flex flex-row justify-between items-center px-[30px] place-items-center '>
-             <hr className='h-[600px] w-[3px] bg-black hidden md:block'/>
+             <hr className='h-[600px] w-[2px] bg-[#7a7777] hidden md:block'/>
             <div className='flex flex-col md:flex-row justify-center items-center gap-10 md:gap-32 '>
                 <div className='flex flex-col gap-2'>
                     <h2 className='font-Cinzel text-center md:text-left font-medium text-[#013a01] text-[16px] md:text-[18px]'>About Us</h2>
@@ -20,7 +20,7 @@ export default function about() {
         </div>
 
         <div className='flex flex-row-reverse justify-between items-center px-[30px] place-items-center pt-10 md:pt-0'>
-             <hr className='h-[600px] w-[3px] bg-black hidden md:block'/>
+             <hr className='h-[600px] w-[3px] bg-[#7a7777] hidden md:block'/>
             <div className='flex flex-col md:flex-row-reverse justify-center items-center gap-10 md:gap-32'>
                
                   
