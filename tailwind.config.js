@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+
+      fontFamily: {
+        Cinzel: ["Cinzel", "serif"],
+        Inter: ["Inter", "sans-serif"],
+        Neko: ["Nerko One", "cursive"]
+      }
+
+    },
   },
   plugins: [],
 }
