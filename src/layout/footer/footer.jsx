@@ -12,8 +12,8 @@ export default function footer() {
     <div className='bg-[#013a01] flex flex-col justify-center items-center gap-10 pt-10 pb-6 px-[30px] w-[100%] overflow-hidden'>
         <div className='flex flex-col md:flex-row justify-center items-center gap-2 md:gap-10'>
             <h2 className='text-[18px] md:text-[20px] text-white font-bold font-Cinzel '>JOIN OUR NEWSLETTER</h2>
-            <div className='flex flex-row w-[360px] h-[36px] border-[1px] rounded-[20px] bg-white'>
-                <input type="text" className='w-[260px] h-[36px] bg-transparent text-[#7a7777] rounded-tl-[20px] rounded-bl-[20px]'/>
+            <div className='flex flex-row w-[300] md:w-[360px] h-[36px] border-[1px] rounded-[20px] bg-white'>
+                <input type="text" className='w-[200]md:w-[260px] h-[36px] bg-transparent text-[#7a7777] rounded-tl-[20px] rounded-bl-[20px]'/>
                 <button className='bg-white text-[#013a01] w-[100px] h-[35px] rounded-[20px]'>Sign Up</button>
             </div>
         </div>
