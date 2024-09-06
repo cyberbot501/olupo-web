@@ -25,12 +25,12 @@ export default function Nav() {
   return (
     <div
       className={`fixed top-0 left-0 z-50 h-[100px] w-[100%] flex justify-between items-center px-[30px] transition-all duration-300 ${
-        scroll ? 'bg-[#013a01]' : 'bg-transparent'
+        scroll ? 'bg-[#013a01]' : ' bg-[#013a01] md:bg-transparent'
       }`}
     >
       <div className='flex flex-col justify-center items-center'>
         <img src={logo} alt="" className='w-[50px] h-[50px] md:w-[70px] md:h-[70px] rounded-[35px]' />
-        <h1 className={`text-[18px] md:text-[20px] font-Cinzel font-bold ${scroll ? 'text-white' : 'text-black'}`}>
+        <h1 className={`text-[18px] md:text-[20px] font-Cinzel font-bold ${scroll ? 'text-white' : 'text-white md:text-black'}`}>
           Olupo Agric
         </h1>
       </div>
@@ -42,7 +42,7 @@ export default function Nav() {
       </div>
 
       <ul className='hidden md:flex flex-row gap-10'>
-        <li><NavLink to='./' className={`text-[18px] font-Inter font-medium ${scroll ? 'text-white' : 'text-black'}`}>Home</NavLink></li>
+        <li><NavLink to='/' className={`text-[18px] font-Inter font-medium ${scroll ? 'text-white' : 'text-black'}`}>Home</NavLink></li>
         <li><NavLink className={`text-[18px] font-Inter font-medium ${scroll ? 'text-white' : 'text-black'}`}>About Us</NavLink></li>
         <li><NavLink className={`text-[18px] font-Inter font-medium ${scroll ? 'text-white' : 'text-black'}`}>Farming Calendar</NavLink></li>
         <li><NavLink className={`text-[18px] font-Inter font-medium ${scroll ? 'text-white' : 'text-black'}`}>Services</NavLink></li>
@@ -53,7 +53,7 @@ export default function Nav() {
         <ul
           className={`fixed top-[100px] left-0 w-full bg-[#013a01] flex flex-col items-center gap-8 py-10 transition-all duration-300 md:hidden`}
         >
-          <li><NavLink to='./' className='text-[18px] font-Inter font-medium text-white'>Home</NavLink></li>
+          <li><NavLink to='/' className='text-[18px] font-Inter font-medium text-white'>Home</NavLink></li>
           <li><NavLink className='text-[18px] font-Inter font-medium text-white'>About Us</NavLink></li>
           <li><NavLink className='text-[18px] font-Inter font-medium text-white'>Farming Calendar</NavLink></li>
           <li><NavLink className='text-[18px] font-Inter font-medium text-white'>Services</NavLink></li>
