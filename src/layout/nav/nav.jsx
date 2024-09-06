@@ -53,11 +53,11 @@ export default function Nav() {
         <ul
           className={`fixed top-[100px] left-0 w-full bg-[#013a01] flex flex-col items-center gap-8 py-10 transition-all duration-300 md:hidden`}
         >
-          <li><NavLink className='text-[18px] font-Inter font-medium text-white'>Home</NavLink></li>
+          <li><NavLink to='./' className='text-[18px] font-Inter font-medium text-white'>Home</NavLink></li>
           <li><NavLink className='text-[18px] font-Inter font-medium text-white'>About Us</NavLink></li>
           <li><NavLink className='text-[18px] font-Inter font-medium text-white'>Farming Calendar</NavLink></li>
           <li><NavLink className='text-[18px] font-Inter font-medium text-white'>Services</NavLink></li>
-          <li><NavLink className='text-[18px] font-Inter font-medium text-white'>Contact Us</NavLink></li>
+          <li><NavLink to='./contact' className='text-[18px] font-Inter font-medium text-white'>Contact Us</NavLink></li>
         </ul>
       )}
     </div>
