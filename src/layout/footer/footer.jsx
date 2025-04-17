@@ -23,7 +23,7 @@ export default function Footer() {
             <div className='flex flex-col gap-5'>
                 <h1 className='font-Cinzel font-medium text-[16px] md:text-[20px] text-white'>ABOUT OLUPO AGRIC</h1>
                 <p className='w-full md:w-[300px] text-[#7a7777] text-[13px] md:text-[16px] font-Inter font-normal'>
-                    Felis eget nunc loborits mattis aliquam facuiblus puru in massa, aubic ornare viverra tellus lorem sit.
+                Family farming in Nigeria for Six Generations OLUPO AGRICULTURAL PRODUCT NIGERIA LIMITEDt.
                 </p>
                 <img src={logo} alt="Olupo Agric Logo" className='w-[50px] h-[50px] md:w-[70px] md:h-[70px] rounded-[35px]' />
             </div>
@@ -45,10 +45,10 @@ export default function Footer() {
             <div className='flex flex-col gap-5'>
                 <h1 className='font-Cinzel font-medium text-[16px] md:text-[20px] text-white'>USEFUL LINKS</h1>
                 <ul className='flex flex-col gap-3'>
-                    <NavLink className='text-[#7a7777] text-[13px] md:text-[16px] font-Inter font-normal'>Home</NavLink>
-                    <NavLink className='text-[#7a7777] text-[13px] md:text-[16px] font-Inter font-normal'>About Us</NavLink>
-                    <NavLink className='text-[#7a7777] text-[13px] md:text-[16px] font-Inter font-normal'>Our Crops</NavLink>
-                    <NavLink className='text-[#7a7777] text-[13px] md:text-[16px] font-Inter font-normal'>Feed Mill</NavLink>
+                    <NavLink to='/' className='text-[#7a7777] text-[13px] md:text-[16px] font-Inter font-normal'>Home</NavLink>
+                    <NavLink to='/aboutus' className='text-[#7a7777] text-[13px] md:text-[16px] font-Inter font-normal'>About Us</NavLink>
+                    <NavLink to='/products' className='text-[#7a7777] text-[13px] md:text-[16px] font-Inter font-normal'>Our Products</NavLink>
+                    <NavLink to='/ourservices' className='text-[#7a7777] text-[13px] md:text-[16px] font-Inter font-normal'>Service</NavLink>
                 </ul>
             </div>
 

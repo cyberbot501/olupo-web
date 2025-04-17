@@ -19,37 +19,37 @@ export default function Products() {
       image: feed1,
       title: 'FEED MILLING',
       description: 'Feed milling involves the production of high-quality animal feed from raw materials. This helps ensure optimal nutrition and performance for your livestock.',
-      link: '/products/feed-milling'
+      link: '/products'
     },
     {
       image: feed2,
       title: 'FRUIT PRODUCTION',
       description: 'Our feed milling process uses modern techniques to produce nutritious animal feed, supporting animal health and productivity.',
-      link: '/products/fruit-production'
+      link: '/products'
     },
     {
       image: feed3,
       title: 'CHEMICAL (AGRO-ALLIED)',
       description: 'Feed milling is essential for producing high-quality animal feed. We ensure each product supports livestock growth and health.',
-      link: '/products/chemical-agro-allied'
+      link: '/products'
     },
     {
       image: feed4,
       title: 'FARMING TOOLS',
       description: 'Using high-grade ingredients, our feed milling ensures optimal growth for livestock, delivering the nutrition they need.',
-      link: '/products/farming-tools'
+      link: '/products'
     },
     {
       image: feed5,
       title: 'LIVESTOCKS FEEDS',
       description: 'Expert feed milling to enhance livestock health and productivity. Each batch is carefully formulated for maximum nutritional value.',
-      link: '/products/livestock-feeds'
+      link: '/products'
     },
     {
       image: feed6,
       title: 'STOCKS BREEDING',
       description: 'Our state-of-the-art feed milling process ensures consistency and quality in animal feed for improved livestock performance.',
-      link: '/products/stocks-breeding'
+      link: '/products'
     },
   ];
 

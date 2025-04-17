@@ -46,7 +46,7 @@ export default function Nav() {
 
       {/* Desktop Contact Button */}
       <NavLink to="/contact">
-        <button className="hidden md:flex w-[200px] h-[48px] bg-white text-[#013a01] font-bold rounded-[20px]">
+        <button className="hidden md:flex w-[200px] place-content-center place-items-center h-[48px] bg-white text-[#013a01] font-bold rounded-[20px]">
           Contact
         </button>
       </NavLink>
